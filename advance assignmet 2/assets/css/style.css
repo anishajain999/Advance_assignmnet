@@ -1,0 +1,511 @@
+*{
+    box-sizing: border-box;
+}
+.main{
+    max-width: 1440px;
+    background: #FFFFFF;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 auto;
+}
+.header{
+    max-width: 1040px;
+    margin: 50px auto;
+}
+.logo{
+    height: 30px;
+    width: 30px;
+    background: #1EA59A;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@font-face {
+    font-family: "Mulish-Regular";
+    src: url(../fonts/Mulish-Regular.ttf) format("truetype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Mulish-Light";
+    src: url(../fonts/Mulish-Light.ttf) format("truetype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Mulish-Bold";
+    src: url(../fonts/Mulish-Bold.ttf) format("truetype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Mulish-ExtraBold";
+    src: url(../fonts/Mulish-ExtraBold.ttf) format("truetype");
+    font-weight: normal;
+}
+.logo-txt{
+font-family: "Mulish-Regular";
+font-style: normal;
+font-weight: 800;
+font-size: 10px;
+line-height: 10px;
+letter-spacing: 0.5px;
+color: #FFFFFF;
+}
+.nav-txt{
+font-family: "Mulish-Regular";
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 19px;
+letter-spacing: 0.5px;
+color: #000000 !important;
+}
+.banner{
+    position: relative;
+    margin-bottom: 40px;
+}
+.banner-img{
+    margin-left: 213px;
+    border-radius: 10px;
+    position: relative;
+}
+.banner-txt{
+    position: absolute;
+    height: 130px;
+    left: 13.89%;
+    right: 54.58%;
+    top: 111px;
+
+    font-family:"Mulish-ExtraBold";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 65px;
+    letter-spacing: -1px;
+
+}
+.content{
+    margin-left: 200px;
+}
+.form-banner{
+    position: absolute;
+    left: 13.89%;
+    top: 300px;
+    
+}
+.form-heading{
+    font-family: "Mulish-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    letter-spacing: 0.3px;
+    color: #7D8186;
+}
+.form-content{
+    padding: 32px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 30px rgba(64, 72, 82, 0.1);
+    border-radius: 10px;
+
+}
+.dropdown-toggle{
+    font-family: "Mulish-Regular";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 0.3px;
+    color: #000000;
+}
+.submit-btn{
+    font-family: "Mulish-Regular";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.323077px;
+    color: #FFFFFF;
+    background: #FE753E;
+    border-radius: 10px;
+    padding: 20px 45px;
+    margin-left: 94px;
+}
+.text-pilih{
+    font-family: "Mulish-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 0.3px;
+    color: #121212;
+    max-width: 297px;
+}
+.text-kami{
+    font-family: "Mulish-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.346154px;
+    color: #404852;
+    max-width: 520px;
+}
+.text-lihat{
+font-family:"Mulish-Bold";
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: 0.346154px;
+color: #1EA59A;
+}
+.section-3{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;;
+}
+.border-radius-10{
+    border-radius: 10px;
+}
+.imgg{
+    background-size: cover;
+    height: inherit;
+}
+.owl-images{
+    position: relative;
+}
+.bottom-left {
+    background: #FFFFFF;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding: 10px;
+    border-top-right-radius: 10px;
+  }
+.carousel-heading-1{
+    font-family: "Mulish-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: #1EA59A;
+}
+.carousel-heading-2{
+    font-family: "Mulish-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    color: #9395A0;
+}
+.our-carousel{
+    margin-bottom: 150px;
+}
+.section-5{
+    margin-top: 150px;
+}
+.section-5-left-heading-1{
+    font-family: "Mulish-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 0.3px;
+    color: #121212;
+    margin-left: 200px;
+    margin-right: 220px;
+    
+}
+.text-kami-all{
+    font-family: "Mulish-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 0.346154px;
+    color: #404852;
+    margin-right: 220px;
+    margin-top: 10px;
+    margin-bottom: 64px;
+    margin-left: 200px;
+}
+.h-600{
+    font-family:  "Mulish-ExtraBold";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 0.888889px;
+    color: #1EA59A;
+    margin-left: 200px;
+    margin-right: 345px;
+  
+}
+.m-150{
+   margin-top: 150px; 
+}
+.section-5-part2{
+    background: #F6FAFA;
+}
+.heading-2{
+    font-family: "Mulish-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.352941px;
+    color: #121212;
+}
+.logo-2{
+    height: 50px;
+    width: 50px;
+}
+.part2{
+    margin-left: 90px;
+    margin-right: 210px;
+    display: flex;
+    justify-content: space-between;
+}
+.ml-30{
+    margin-left: 30px;
+}
+.max-width-320{
+    max-width: 320px;
+}
+.mt-92{
+    margin-top: 92px;
+}
+.grid-heading{
+    font-family: "Mulish-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.5px;
+    color: #1EA59A;
+    margin-top: 10px;
+}
+.grid-heading-2{
+    font-family: "Mulish-Regular";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    color: #404852;
+}
+.grid-heading-3{
+    font-family: "Mulish-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 0.346154px;
+    color: #121212;
+}
+.logo-4{
+    width: 106px;
+    height: 106px;
+    background: #5959B3;
+    border-radius: 50%;
+}
+.icon-Vector-4{
+    max-width:24px;
+}
+
+.section-7-heading1{
+    font-family: "Mulish-ExtraBold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.5px;
+    color: #121212;
+    max-width: 321px;
+    padding-top: 50px;
+}
+.part-7-1{
+    padding-left: 201px;
+    padding-top: 169px;
+    padding-right: 179px;
+    padding-bottom: 324px;
+    background: #F6F6FB;
+}
+.part-72-heading1{
+font-family: "Mulish-Regular";
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 45px;
+text-align: center;
+letter-spacing: 0.3px;
+color: #121212;
+align-items: center;
+}
+.mw-400{
+    max-width: 400px;
+    display: flex;
+    margin-left: 140px;
+    margin-top: 130px;
+}
+.part-72-heading2{
+font-family: "Mulish-Regular";
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 30px;
+text-align: center;
+letter-spacing: 0.346154px;
+color: #404852;
+max-width: 400px;
+margin-left: 140px;
+margin-top: 27px;
+}
+.imggg{
+    margin-left: 170px;
+    margin-right: 220px;
+    margin-top: 83px;
+    margin-bottom: 20px;
+}
+.img3{
+    border-radius: 50%;
+    max-width: 70px;
+    max-height: 70px;
+}
+.img2, .img4{
+    border-radius: 50%;
+    max-width: 50px;
+    max-height: 50px;
+    opacity: 0.5;
+    align-self: center;}
+.img1 ,.img5{
+    border-radius: 50%;
+    max-width: 30px;
+    max-height: 30px;
+    opacity: 0.2;
+    align-self: center;}
+.last-2nd-heading{
+font-family: "Mulish-Bold";
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 28px;
+text-align: center;
+letter-spacing: 0.444444px;
+color: #333333;
+}
+.last-para{
+font-family:  "Mulish-Regular";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.4375px;
+color: #404852;
+mix-blend-mode: normal;
+opacity: 0.6;
+}
+
+@media  screen and (max-width: 992px) {
+    .nav{
+       margin-left: 20px;
+    }
+    .banner-img, .content{
+        margin-left: 0px;
+        opacity: 0.7;
+        width: 100%;
+    }
+    .banner-img-2{
+        display: none;
+    }
+    .header{
+        margin: 50px 20px;
+    }
+    .banner-txt{
+        font-size: 30px;
+        line-height: 25px;
+        right:0%;
+        left: 10%;
+        top:10%;
+    }
+    .submit-btn{
+        margin-left: 10px;
+    }
+    .form-banner{
+        top:50%;
+        left: 10%;
+        padding: auto;
+        margin-top: 10px;
+    }
+    .form-content,.submit-btn,.dropdown-toggle{
+        padding: 10px;
+    }
+    .imggg{
+        padding: 30px;
+        margin: 0;
+    }
+    .dropdown-toggle{
+        font-size: 25px;
+    }
+    .section-31,.text-kami,.text-lihat{
+        margin: 0 auto;
+        text-align: center;
+        padding: 10px 20px;
+    }
+    .our-carousel,.section-5{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .section-5-left-heading-1,.text-kami-all,.h-600{
+        margin: 10px 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .section-5-left-heading-1,.part-72-heading1{
+        font-size: 20px;
+    }
+    .h-600{
+        font-size: 50px;
+    }
+    .section-7-heading1{
+        font-size: 30px;
+    }
+    .part2{
+        margin: 50px 20px;
+        justify-content: center;
+    }
+    .pad-20{
+        padding: 0 20%;
+    }
+    .part-7-1,.mw-400,.part-72-heading2{
+        padding: 100px;
+        margin: 0;
+    }
+    .form{
+        margin-top: 20px;
+    }
+    
+}
+@media screen and (max-width: 500px){
+.dropdown-toggle {
+    font-size: 15px;
+}
+}
+@media only screen and (min-width: 992px) and (max-width: 1418px) {
+    
+	.banner-img-2{
+        display: none;
+    }
+    .banner-img{
+        margin-left: 0px;
+        opacity: 0.7;
+        width: 100%;
+    }
+    .section-5-left-heading-1{
+        margin-left:100px;
+        margin-right: 0px;
+    }
+}
